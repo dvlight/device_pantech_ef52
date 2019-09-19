@@ -1,6 +1,6 @@
 Copyright 2019, light1234
 
-Device Tree For Pantech SKY Vega Iron
+Device Tree For Pantech Vega Iron
 =======================================
 
 Basic   | Spec Sheet
@@ -16,5 +16,7 @@ Battery | 2150 mAh
 Dimensions | 67.6 x 136.3 x 8.8 mm, 153 g (Black) / 154 g (White)
 Camera  | 13M / 2.1M FULL HD
 
+Device picture
+=======================================
 
 ![SKY VEGA IRON ](https://t1.daumcdn.net/cfile/tistory/260BAD335684C10620 "SKY VEGA IRON")
