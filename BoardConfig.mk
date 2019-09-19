@@ -30,6 +30,12 @@ TARGET_OTA_ASSERT_DEVICE := ef52l,ef52s,ef52k
 TARGET_KERNEL_SOURCE := kernel/pantech/ef52
 TARGET_KERNEL_CONFIG := aosp_ef52_defconfig
 
+# Platform
+BOARD_VENDOR_PLATFORM := pantech-iron
+
+# Vendor Security patch level
+VENDOR_SECURITY_PATCH := 2013-09-30
+
 # LightHAL
 TARGET_PROVIDES_LIBLIGHT := true
 
