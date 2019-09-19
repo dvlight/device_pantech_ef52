@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github"
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/sepolicy/common"
+  },
+  {
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport"
+  },
+  {
+    "remote": "github"
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat"
+  },
+  {
+    "remote": "github"
+    "repository": "android_external_connectivity",
+    "target_path": "external/connectivity"
+  }
+  {
+    "remote": "github"
+    "repository": "device_pantech_iron-common",
+    "target_path": "device/pantech/iron-common",
+  }
+]
