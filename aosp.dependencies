@@ -1,8 +1,8 @@
 [
   {
     "remote": "github"
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/sepolicy/common"
+    "repository": "android_device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy/sepolicy"
   },
   {
     "repository": "android_external_stlport",
@@ -20,7 +20,7 @@
   }
   {
     "remote": "github"
-    "repository": "device_pantech_iron-common",
-    "target_path": "device/pantech/iron-common",
+    "repository": "device_pantech_msm8960-common",
+    "target_path": "device/pantech/msm8960-common",
   }
 ]

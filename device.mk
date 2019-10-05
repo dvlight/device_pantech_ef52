@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit the fusion-common definitions
-$(call inherit-product, device/pantech/iron-common/iron.mk)
+$(call inherit-product, device/pantech/msm8960-common/msm8960.mk)
 
 # Device Path
 DEVICE_PATH := device/pantech/ef52l

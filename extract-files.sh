@@ -2,7 +2,7 @@ set -e
 
 # Required!
 export DEVICE=ef52l
-export DEVICE_COMMON=iron-common
+export DEVICE_COMMON=msm8960-common
 export VENDOR=pantech
 
 export DEVICE_BRINGUP_YEAR=2013
