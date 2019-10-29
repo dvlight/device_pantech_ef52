@@ -14,8 +14,10 @@
 # limitations under the License.
 #
 
-# inherit from common iron
 -include device/pantech/msm8960-common/BoardConfigCommon.mk
+
+# ReleaseTools
+TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/pantech/ef52
@@ -30,8 +32,28 @@ VENDOR_SECURITY_PATCH := 2013-11-30
 # LightHAL
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 20971520 #20MB
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 20971520 #20MB
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1782579200 #1.7GB
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 27577531392 #25.7GB
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_CACHEIMAGE_PARTITION_SIZE := 419430400 #4xxMB
+BOARD_FLASH_BLOCK_SIZE := 131072
+BOARD_HAS_LARGE_FILESYSTEM := true
+TARGET_EXFAT_DRIVER := exfat
+
+TARGET_COPY_OUT_VENDOR := vendor
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USES_MKE2FS := true
+
+BOARD_SUPPRESS_EMMC_WIPE := true
+
+TARGET_OTA_ASSERT_DEVICE := ef52l,ef52s,ef52k
+
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/ef52l/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/ef52/bluetooth
 
 # Sensor
 EF52_USE_KITKAT_SENSORS := yes
@@ -57,4 +79,4 @@ TW_EXTERNAL_STORAGE_PATH := "/usb-otg"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "usb-otg"
 
 # inherit from the proprietary version
--include vendor/pantech/ef52l/BoardConfigVendor.mk
+-include vendor/pantech/ef52/BoardConfigVendor.mk

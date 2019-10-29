@@ -69,20 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# MSM8960/MPQ8064 firmware
+# Checking model
 PRODUCT_COPY_FILES += \
-    device/pantech/ef52l/firmware/cyttsp_8064_mtp.hex:/system/etc/firmware/cyttsp_8064_mtp.hex \
-    device/pantech/ef52l/firmware/cyttsp_8960_cdp.hex:/system/etc/firmware/cyttsp_8960_cdp.hex \
-    device/pantech/ef52l/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-    device/pantech/ef52l/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-    device/pantech/ef52l/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
-    device/pantech/ef52l/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
-    device/pantech/ef52l/firmware/vidc.b01:/system/etc/firmware/vidc.b01 \
-    device/pantech/ef52l/firmware/vidc.b02:/system/etc/firmware/vidc.b02 \
-    device/pantech/ef52l/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
-    device/pantech/ef52l/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
-    device/pantech/ef52l/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
-    device/pantech/ef52l/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
+    $(LOCAL_PATH)/releasetools/device_check.sh:system/bin/device_check.sh
 
 # keylayout
 PRODUCT_COPY_FILES += \

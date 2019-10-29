@@ -1,7 +1,7 @@
 set -e
 
 # Required!
-export DEVICE=ef52l
+export DEVICE=ef52
 export DEVICE_COMMON=msm8960-common
 export VENDOR=pantech
 
