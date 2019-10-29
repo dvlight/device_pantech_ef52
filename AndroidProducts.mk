@@ -15,10 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_ef52l.mk \
-    $(LOCAL_DIR)/aosp_ef52l.mk
+    $(LOCAL_DIR)/aosp_ef52.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ef52l-eng \
-    aosp_ef52l-userdebug \
-		aosp_ef52l-eng
+    aosp_ef52-eng \
+    aosp_ef52-userdebug \
+    aosp_ef52-user
