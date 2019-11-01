@@ -3,12 +3,18 @@
     "repository": "external_stlport",
     "target_path": "external/stlport",
     "remote":      "aoscp",
-	"branch":      "nougat-mr2"
+    "branch":      "nougat-mr2"
   },
   {
     "repository": "external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
     "remote":      "aoscp",
     "branch":      "poundcake-release"
+  },
+  {
+    "repository": "external_connectivity",
+    "target_path": "external/connectivity"
+    "remote":      "aoscp",
+    "branch":      "nougat-mr2"
     }
 ]
