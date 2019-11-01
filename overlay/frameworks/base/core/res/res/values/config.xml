@@ -74,7 +74,7 @@
     </string-array>
 
     <!-- Using quickmemo key as ASSIST -->
-
+    <add-resource type="bool" name="config_deviceHasVariableButtonBrightness"></add-resource>
     <bool name="config_deviceHasVariableButtonBrightness">false</bool>
 
     <bool name="config_lidControlsSleep">true</bool>
