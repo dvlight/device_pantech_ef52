@@ -16,5 +16,10 @@
     "target_path": "external/connectivity"
     "remote":      "aoscp",
     "branch":      "nougat-mr2"
+  },
+  {
+    "repository": "aosp-mirror/platform_packages_providers_mediaprovider",
+    "target_path": "packages/providers/MediaProvider",
+    "branch": "nougat-mr2.3-release"
     }
 ]
