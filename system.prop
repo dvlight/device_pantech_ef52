@@ -41,7 +41,7 @@ persist.qcril.disable_retry = false
 #to display only once. even silent reset
 ril.data.bootingpopup=0
 # default local
-persist.sys.timezone=Asia/Korean
+persist.sys.timezone=Asia/Seoul
 persist.sys.language=ko
 persist.sys.region=KR
 persist.sys.country=KR
