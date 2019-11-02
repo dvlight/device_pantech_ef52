@@ -50,4 +50,6 @@
     <item name="battery.capacity">2150</item>
     <item name="dsp.audio">10</item>
     <item name="dsp.video">50</item>
+    <!-- This is the battery capacity in mAh -->
+    <item name="battery.capacity">2150</item>
 </device>
