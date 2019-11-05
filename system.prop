@@ -2,6 +2,13 @@
 # system.prop for ef52
 #
 
+ro.secure=0
+ro.debuggable=1
+ro.kernel.android.checkjni=1
+
+ro.control_privapp_permissions=log
+ro.control_privapp_permissions=enforce
+
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 ro.baseband.arch=mdm
@@ -47,3 +54,11 @@ persist.sys.region=KR
 persist.sys.country=KR
 #changed data connection to disconnection as soon as entering no-service
 persist.telephony.oosisdc=false
+
+# ef52 Hardware Info
+ro.device.chipset=Qualcomm APQ8064T Snapdragon 600
+ro.device.cpu=Quad-core 1.72 GHz Krait 300
+ro.device.gpu=Adreno 320
+ro.device.rear_cam=13 MP
+ro.device.front_cam=2.1 MP
+ro.device.screen_res=720 x 1280 pixels (293.72 ppi pixel density)
