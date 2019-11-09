@@ -6,10 +6,10 @@
     "branch":      "nougat-mr2"
   },
   {
-    "repository": "external_sony_boringssl-compat",
+    "repository": "android/external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
-    "remote":      "aoscp",
-    "branch":      "poundcake-release"
+    "remote":      "LineageOS",
+    "branch":      "cm-14.1"
   },
   {
     "repository": "external_connectivity",
