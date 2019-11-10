@@ -31,3 +31,6 @@ BUILD_FINGERPRINT := pantech/ef52l:4.1.2/JZO54K/IM-A870L.003:user/release-keys
 # Enable Torch
 #PRODUCT_PACKAGES += Torch
 
+# Root options
+ROOT_METHOD=magisk 
+
