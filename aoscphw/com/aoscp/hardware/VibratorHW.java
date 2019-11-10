@@ -15,10 +15,9 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware;
+package com.aoscp.hardware;
 
-
-import org.lineageos.internal.util.FileUtils;
+import com.aoscp.internal.util.FileUtils;
 
 public class VibratorHW {
 

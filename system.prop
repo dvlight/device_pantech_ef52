@@ -55,6 +55,9 @@ persist.sys.country=KR
 #changed data connection to disconnection as soon as entering no-service
 persist.telephony.oosisdc=false
 
+# adaptive backlight
+ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc
+
 # ef52 Hardware Info
 ro.device.chipset=Qualcomm APQ8064T Snapdragon 600
 ro.device.cpu=Quad-core 1.72 GHz Krait 300

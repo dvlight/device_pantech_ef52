@@ -11,7 +11,7 @@ $(call inherit-product, vendor/aoscp/configs/telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/pantech/ef52/full_ef52.mk)
 
-BOARD_HARDWARE_CLASS := device/pantech/ef52/lineagehw/
+BOARD_HARDWARE_CLASS := device/pantech/ef52/aoscphw/
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ef52
