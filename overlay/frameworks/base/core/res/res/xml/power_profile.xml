@@ -47,7 +47,6 @@
     <item name="radio.on">10</item>
     <item name="radio.scanning">70</item>
     <item name="radio.active">260</item>
-    <item name="battery.capacity">2150</item>
     <item name="dsp.audio">10</item>
     <item name="dsp.video">50</item>
     <!-- This is the battery capacity in mAh -->
