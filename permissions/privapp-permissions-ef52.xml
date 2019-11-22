@@ -1,25 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (C) 2017 The Android Open Source Project
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~      http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License
-  -->
-
-<!--
-This XML file declares which signature|privileged permissions should be granted to privileged
-applications on GMS or Google-branded devices.
-It allows additional grants on top of privapp-permissions-platform.xml
--->
 <permissions>
     <privapp-permissions package="com.android.carrierconfig">
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
@@ -319,6 +298,46 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.UPDATE_DEVICE_STATS"/>
         <permission name="android.permission.WRITE_GSERVICES"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.OTHER_SERVICES"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.cl"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.android"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.androidsecure"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierra"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierraqa"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierrasandbox"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.talk"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.ig"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.lh2"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.mobile"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.cp"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.adsense"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.adwords"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.blogger"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.dodgeball"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.gbase"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.groups2"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.health"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.jotspot"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.knol"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.news"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.orkut"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.print"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.sitemaps"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.wifi"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.finance"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.local"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.ah"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.notebook"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.writely"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.wise"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.grandcentral"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.speechpersonalization"/>
+        <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.speech"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.gsf.login">
