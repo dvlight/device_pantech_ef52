@@ -2,10 +2,6 @@
 # system.prop for ef52
 #
 
-ro.secure=0
-ro.debuggable=1
-ro.kernel.android.checkjni=1
-
 ro.control_privapp_permissions=log
 ro.control_privapp_permissions=enforce
 
