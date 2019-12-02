@@ -2,12 +2,33 @@
 # system.prop for ef52
 #
 
-ro.control_privapp_permissions=log
-ro.control_privapp_permissions=enforce
+# system props for the data modules
+ro.com.android.dataroaming=true
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=false
 
+# system prop for setting rmnet mux mode
+persist.rmnet.mux=disabled
+
+# default local
+persist.sys.timezone=Asia/Seoul
+persist.sys.language=ko
+persist.sys.region=KR
+persist.sys.country=KR
+
+# changed data connection to disconnection as soon as entering no-service
+persist.telephony.oosisdc=false
+
+# IMS
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
+# RIL
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 ro.baseband.arch=mdm
+ro.ril.transmitpower=true
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
 persist.rild.nitz_long_ons_1=
@@ -18,22 +39,14 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
+ril.data.bootingpopup=0
+rol.ril.ext.ecclist=113,114,115
+ro.telephony.call_ring.multiple=0
 DEVICE_PROVISIONED=1
 debug.sf.hw=1
 debug.egl.hw=1
 persist.data_netmgrd_mtu=1450
 persist.timed.enable=true
-rol.ril.ext.ecclist=113,114,115
-#
-# system props for the data modules
-#
-ro.com.android.dataroaming=true
-ro.use_data_netmgrd=true
-persist.data.netmgrd.qos.enable=false
-#system prop for setting rmnet mux mode
-persist.rmnet.mux=disabled
-ro.ril.transmitpower=true
-ro.telephony.call_ring.multiple=0
 persist.radio.adb_log_on=1
 persist.radio.add_power_save=1
 persist.radio.snapshot_disabled=1
@@ -41,15 +54,8 @@ persist.radio.apm_sim_not_pwdn=1
 persist.radio.use_se_table_only=1
 persist.radio.fill_eons=1
 persist.qcril.disable_retry = false
-#to display only once. even silent reset
-ril.data.bootingpopup=0
-# default local
-persist.sys.timezone=Asia/Seoul
-persist.sys.language=ko
-persist.sys.region=KR
-persist.sys.country=KR
-#changed data connection to disconnection as soon as entering no-service
-persist.telephony.oosisdc=false
+persist.radio.rat_on=combine
+persist.radio.calls.on.ims=1
 
 # adaptive backlight
 ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc
