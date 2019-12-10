@@ -22,7 +22,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/pantech/ef52/releasetools
 -include vendor/pantech/ef52/BoardConfigVendor.mk
 
 TARGET_KERNEL_SOURCE := kernel/pantech/msm8960
-TARGET_KERNEL_CONFIG := Hiru_ef52_defconfig
+TARGET_KERNEL_CONFIG := aoscp_ef52_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 20971520 #20MB
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 20971520 #20MB
